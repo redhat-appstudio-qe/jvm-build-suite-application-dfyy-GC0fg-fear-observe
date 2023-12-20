@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: jvm-build-suite-component-zwwbce
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-appstudio-qe/jvm-build-bhoi-tenant/jvm-build-suite-application-dfyy/jvm-build-suite-component-zwwbce@sha256:dd5c0b8852775279270221431e7293ccd3175233aabff159b110836b3c5f4943
+        name: hacbs-jvm-build-test-project
+        resources: {}
+status: {}
